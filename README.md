@@ -149,9 +149,17 @@ xcodebuild -project TapSulor.xcodeproj -scheme TapSulor -configuration Release \
 - 删除账号会同时删除它对应的数据存储。
 - 原生网络层只访问 `taptap.cn`、`taptap.com` 的 https 地址，页面无法把它当作任意网络代理使用。
 
-## 📄 许可
+## 📄 开源协议
 
-沿用 Android 版协议，**GNU General Public License v3.0**。
+本项目采用 **GNU General Public License v3.0**（GPL-3.0）— 详见 [LICENSE](LICENSE) 文件。
+
+**Copyright (C) 2026 流苏水寒 <2391130219@qq.com> (GitHub: liusu239113)**
+
+依据 GPL-3.0：
+
+- ✅ 你可以自由使用、修改、再分发本项目；
+- ⚠️ **必须保留**上述版权声明与作者署名「流苏水寒」，不得移除或篡改；
+- ⚠️ 任何修改后向外分发的作品（含编译出的 APK / IPA / EXE），**整体必须以 GPL-3.0 公开完整源码**，不得闭源分发。
 
 ---
 
