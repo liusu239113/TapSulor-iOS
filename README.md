@@ -151,7 +151,7 @@ xcodebuild -project TapSulor.xcodeproj -scheme TapSulor -configuration Release \
 
 ## 📄 开源协议
 
-本项目采用 **GNU General Public License v3.0**（GPL-3.0）— 详见 [LICENSE](LICENSE) 文件。
+本项目采用 **GNU General Public License v3.0**（GPL-3.0）— 详见 [LICENSE](LICENSE) 文件；署名与开源传染条款的中英双语说明见 [NOTICE](NOTICE)。
 
 **Copyright (C) 2026 流苏水寒 <2391130219@qq.com> (GitHub: liusu239113)**
 
