@@ -1,0 +1,509 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+		02E6CC27C9C3D353159E5B8A = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A583AA9695DA97B051572099;
+			buildPhases = (
+				99664F6A4DCB215A80F3AA45,
+				47ECEEEAD16CF07BE1C0F482,
+				69F87189DAF4C591421BE8D8,
+			);
+			buildRules = ();
+			dependencies = ();
+			name = "TapSulor";
+			productName = "TapSulor";
+			productReference = 9BEF6F399A80FEF026A8AC65;
+			productType = "com.apple.product-type.application";
+		};
+		032EE7BA7501E781847F8769 = {
+			isa = PBXGroup;
+			children = (
+				8806087300E477C24BBFC376,
+				BB485D68C70252E7E4FF51E1,
+				A3C9711AC63CAACF863B64C7,
+				BA8C601B8744E0540D99941B,
+				DF154259EE5F6562ED1B3CD5,
+			);
+			path = "Core";
+			sourceTree = "<group>";
+		};
+		056E2A39DD34907C5593F3C7 = {
+			isa = PBXBuildFile;
+			fileRef = 60BA5518B668F17D29F9A6B2;
+		};
+		06F1F4975DEE538ED8965D88 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = "gnu17";
+				IPHONEOS_DEPLOYMENT_TARGET = "17.0";
+				SDKROOT = "iphoneos";
+				SWIFT_VERSION = "5.0";
+				DEBUG_INFORMATION_FORMAT = "dwarf";
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = "Debug";
+		};
+		0FAB282FAD8415641B7F6811 = {
+			isa = PBXGroup;
+			children = (
+				6D15A3E73944007D61624A6D,
+				53FA526FF34FFF36FD8A13E1,
+				296FC184F3031D2795B93D91,
+				194E67EDCA2472923B47B7BD,
+			);
+			path = "TapSulor";
+			sourceTree = "<group>";
+		};
+		15DAB391519E3D888E3B9AF5 = {
+			isa = PBXBuildFile;
+			fileRef = 8E0002FAB32A80DF40EBF41E;
+		};
+		179F9A7DBDCDC230D8421DB0 = {
+			isa = PBXBuildFile;
+			fileRef = 8806087300E477C24BBFC376;
+		};
+		1839225696C8E87E4F00A8F3 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon";
+				CODE_SIGN_STYLE = "Automatic";
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = NO;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "TapSulor/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = "17.0";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = "1.0.5";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tapsulor.ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = "5.0";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_COMPILATION_MODE = "wholemodule";
+			};
+			name = "Release";
+		};
+		18FE15CAD1F7497E9B060C1B = {
+			isa = PBXBuildFile;
+			fileRef = CFBC8BACED69FE5C82247066;
+		};
+		194E67EDCA2472923B47B7BD = {
+			isa = PBXFileReference;
+			lastKnownFileType = "text.plist.xml";
+			path = "Info.plist";
+			sourceTree = "<group>";
+		};
+		1BED2A6ACAC4A6B7DB629E97 = {
+			isa = PBXGroup;
+			children = (
+				7BECBE167912C53551A83588,
+				C0C96B809350289B8855C148,
+				EA781ED9435D41E5DF37D8D2,
+			);
+			path = "Tests";
+			sourceTree = "<group>";
+		};
+		1FE3F542D1013AA60025374E = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = "gnu17";
+				IPHONEOS_DEPLOYMENT_TARGET = "17.0";
+				SDKROOT = "iphoneos";
+				SWIFT_VERSION = "5.0";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+			};
+			name = "Release";
+		};
+		296FC184F3031D2795B93D91 = {
+			isa = PBXFileReference;
+			lastKnownFileType = "folder.assetcatalog";
+			path = "Assets.xcassets";
+			sourceTree = "<group>";
+		};
+		2BBBF242AD8803426788F32C = {
+			isa = PBXBuildFile;
+			fileRef = 9F72E2FDAC47A7C6B003FAB5;
+		};
+		404C014FB9CEF56710634F5A = {
+			isa = PBXFileReference;
+			lastKnownFileType = "sourcecode.swift";
+			path = "SceneDelegate.swift";
+			sourceTree = "<group>";
+		};
+		47ECEEEAD16CF07BE1C0F482 = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = ();
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C7644007FF19F7539C3D8CC = {
+			isa = PBXGroup;
+			children = (
+				8E0002FAB32A80DF40EBF41E,
+				B9B9D37B56D029F68A4F5A3E,
+			);
+			path = "Bridge";
+			sourceTree = "<group>";
+		};
+		53FA526FF34FFF36FD8A13E1 = {
+			isa = PBXFileReference;
+			lastKnownFileType = "folder";
+			path = "Web";
+			sourceTree = "<group>";
+		};
+		60BA5518B668F17D29F9A6B2 = {
+			isa = PBXFileReference;
+			lastKnownFileType = "sourcecode.swift";
+			path = "MainViewController.swift";
+			sourceTree = "<group>";
+		};
+		648EF4F212F0FBBF31C7C3FD = {
+			isa = PBXBuildFile;
+			fileRef = BB485D68C70252E7E4FF51E1;
+		};
+		656D517DDB23E955A96DD957 = {
+			isa = PBXBuildFile;
+			fileRef = BA8C601B8744E0540D99941B;
+		};
+		69F87189DAF4C591421BE8D8 = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95EEEA73A715088D93B65115,
+				BD1F8CEC49CA5B96FF351258,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B6ADE548402D0E963E89318 = {
+			isa = PBXFileReference;
+			lastKnownFileType = "sourcecode.swift";
+			path = "WebSheetViewController.swift";
+			sourceTree = "<group>";
+		};
+		6D15A3E73944007D61624A6D = {
+			isa = PBXGroup;
+			children = (
+				CE71CDC935E9CAA6549F02D2,
+				4C7644007FF19F7539C3D8CC,
+				032EE7BA7501E781847F8769,
+				90260DC04C576F73C72B7027,
+				769FE6629C482465D21A9B70,
+			);
+			path = "Sources";
+			sourceTree = "<group>";
+		};
+		6F3F4237EDBEEABC5A4E3E69 = {
+			isa = PBXGroup;
+			children = (
+				9BEF6F399A80FEF026A8AC65,
+			);
+			name = "Products";
+			sourceTree = "<group>";
+		};
+		762A1D15E8E62B91CB62E821 = {
+			isa = PBXBuildFile;
+			fileRef = 9E8897BF898344E29044E336;
+		};
+		769FE6629C482465D21A9B70 = {
+			isa = PBXGroup;
+			children = (
+				FD12403FE2F639529E22AAFD,
+				60BA5518B668F17D29F9A6B2,
+				6B6ADE548402D0E963E89318,
+			);
+			path = "UI";
+			sourceTree = "<group>";
+		};
+		78E59CA0216B49AC6E9C6658 = {
+			isa = PBXFileReference;
+			lastKnownFileType = "net.daringfireball.markdown";
+			path = "README.md";
+			sourceTree = "<group>";
+		};
+		7BECBE167912C53551A83588 = {
+			isa = PBXFileReference;
+			lastKnownFileType = "sourcecode.javascript";
+			path = "bridge-contract-test.mjs";
+			sourceTree = "<group>";
+		};
+		8806087300E477C24BBFC376 = {
+			isa = PBXFileReference;
+			lastKnownFileType = "sourcecode.swift";
+			path = "AccountStore.swift";
+			sourceTree = "<group>";
+		};
+		8E0002FAB32A80DF40EBF41E = {
+			isa = PBXFileReference;
+			lastKnownFileType = "sourcecode.swift";
+			path = "PageScripts.swift";
+			sourceTree = "<group>";
+		};
+		90260DC04C576F73C72B7027 = {
+			isa = PBXGroup;
+			children = (
+				9E8897BF898344E29044E336,
+				CFBC8BACED69FE5C82247066,
+			);
+			path = "Network";
+			sourceTree = "<group>";
+		};
+		95EEEA73A715088D93B65115 = {
+			isa = PBXBuildFile;
+			fileRef = 53FA526FF34FFF36FD8A13E1;
+		};
+		96C08E02470CAD2561E0983A = {
+			isa = PBXBuildFile;
+			fileRef = 6B6ADE548402D0E963E89318;
+		};
+		99664F6A4DCB215A80F3AA45 = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BBBF242AD8803426788F32C,
+				AFC1B4FEDD849041A5E5463D,
+				DEB6EED43272B0BED8A20DF2,
+				15DAB391519E3D888E3B9AF5,
+				B3597315BF0709B88A531F3E,
+				179F9A7DBDCDC230D8421DB0,
+				648EF4F212F0FBBF31C7C3FD,
+				A9D928C358C12F18330C1E58,
+				656D517DDB23E955A96DD957,
+				AE1558048A9DAECAAB440BBB,
+				762A1D15E8E62B91CB62E821,
+				18FE15CAD1F7497E9B060C1B,
+				F43F451E2BBF75487F4F1AE9,
+				056E2A39DD34907C5593F3C7,
+				96C08E02470CAD2561E0983A,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BEF6F399A80FEF026A8AC65 = {
+			isa = PBXFileReference;
+			explicitFileType = "wrapper.application";
+			includeInIndex = 0;
+			path = "TapSulor.app";
+			sourceTree = "BUILT_PRODUCTS_DIR";
+		};
+		9E8897BF898344E29044E336 = {
+			isa = PBXFileReference;
+			lastKnownFileType = "sourcecode.swift";
+			path = "TapTapAPI.swift";
+			sourceTree = "<group>";
+		};
+		9F72E2FDAC47A7C6B003FAB5 = {
+			isa = PBXFileReference;
+			lastKnownFileType = "sourcecode.swift";
+			path = "AppCoordinator.swift";
+			sourceTree = "<group>";
+		};
+		A1219598066B6C285A7091BE = {
+			isa = PBXGroup;
+			children = (
+				78E59CA0216B49AC6E9C6658,
+				0FAB282FAD8415641B7F6811,
+				1BED2A6ACAC4A6B7DB629E97,
+				6F3F4237EDBEEABC5A4E3E69,
+			);
+			sourceTree = "<group>";
+		};
+		A3C9711AC63CAACF863B64C7 = {
+			isa = PBXFileReference;
+			lastKnownFileType = "sourcecode.swift";
+			path = "JSONSupport.swift";
+			sourceTree = "<group>";
+		};
+		A583AA9695DA97B051572099 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C20AF9064C0BC4133B166F5B,
+				1839225696C8E87E4F00A8F3,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Release";
+		};
+		A9D928C358C12F18330C1E58 = {
+			isa = PBXBuildFile;
+			fileRef = A3C9711AC63CAACF863B64C7;
+		};
+		AE1558048A9DAECAAB440BBB = {
+			isa = PBXBuildFile;
+			fileRef = DF154259EE5F6562ED1B3CD5;
+		};
+		AFC1B4FEDD849041A5E5463D = {
+			isa = PBXBuildFile;
+			fileRef = BB3DF10A3536482F6B9FB5D6;
+		};
+		B3597315BF0709B88A531F3E = {
+			isa = PBXBuildFile;
+			fileRef = B9B9D37B56D029F68A4F5A3E;
+		};
+		B3B63E46B096DADA1B3A61C4 = {
+			isa = PBXFileReference;
+			lastKnownFileType = "sourcecode.swift";
+			path = "main.swift";
+			sourceTree = "<group>";
+		};
+		B9B9D37B56D029F68A4F5A3E = {
+			isa = PBXFileReference;
+			lastKnownFileType = "sourcecode.swift";
+			path = "WebBridge.swift";
+			sourceTree = "<group>";
+		};
+		BA8C601B8744E0540D99941B = {
+			isa = PBXFileReference;
+			lastKnownFileType = "sourcecode.swift";
+			path = "Models.swift";
+			sourceTree = "<group>";
+		};
+		BB3DF10A3536482F6B9FB5D6 = {
+			isa = PBXFileReference;
+			lastKnownFileType = "sourcecode.swift";
+			path = "AppDelegate.swift";
+			sourceTree = "<group>";
+		};
+		BB485D68C70252E7E4FF51E1 = {
+			isa = PBXFileReference;
+			lastKnownFileType = "sourcecode.swift";
+			path = "CookieHeader.swift";
+			sourceTree = "<group>";
+		};
+		BD1F8CEC49CA5B96FF351258 = {
+			isa = PBXBuildFile;
+			fileRef = 296FC184F3031D2795B93D91;
+		};
+		BD280EBBF83B1F505A8227E3 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06F1F4975DEE538ED8965D88,
+				1FE3F542D1013AA60025374E,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Release";
+		};
+		C0C96B809350289B8855C148 = {
+			isa = PBXFileReference;
+			lastKnownFileType = "text.script.sh";
+			path = "run-logic-checks.sh";
+			sourceTree = "<group>";
+		};
+		C20AF9064C0BC4133B166F5B = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon";
+				CODE_SIGN_STYLE = "Automatic";
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = NO;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "TapSulor/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = "17.0";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = "1.0.5";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tapsulor.ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = "5.0";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = "Debug";
+		};
+		CE71CDC935E9CAA6549F02D2 = {
+			isa = PBXGroup;
+			children = (
+				9F72E2FDAC47A7C6B003FAB5,
+				BB3DF10A3536482F6B9FB5D6,
+				404C014FB9CEF56710634F5A,
+			);
+			path = "App";
+			sourceTree = "<group>";
+		};
+		CFBC8BACED69FE5C82247066 = {
+			isa = PBXFileReference;
+			lastKnownFileType = "sourcecode.swift";
+			path = "UpdateChecker.swift";
+			sourceTree = "<group>";
+		};
+		DEB6EED43272B0BED8A20DF2 = {
+			isa = PBXBuildFile;
+			fileRef = 404C014FB9CEF56710634F5A;
+		};
+		DF154259EE5F6562ED1B3CD5 = {
+			isa = PBXFileReference;
+			lastKnownFileType = "sourcecode.swift";
+			path = "TapTapLogic.swift";
+			sourceTree = "<group>";
+		};
+		E9323A99D7600D440DBFF05A = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = BD280EBBF83B1F505A8227E3;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = "en";
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				"en",
+				"Base",
+				"zh-Hans",
+			);
+			mainGroup = A1219598066B6C285A7091BE;
+			productRefGroup = 6F3F4237EDBEEABC5A4E3E69;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				02E6CC27C9C3D353159E5B8A,
+			);
+		};
+		EA781ED9435D41E5DF37D8D2 = {
+			isa = PBXGroup;
+			children = (
+				B3B63E46B096DADA1B3A61C4,
+			);
+			path = "logic-checks";
+			sourceTree = "<group>";
+		};
+		F43F451E2BBF75487F4F1AE9 = {
+			isa = PBXBuildFile;
+			fileRef = FD12403FE2F639529E22AAFD;
+		};
+		FD12403FE2F639529E22AAFD = {
+			isa = PBXFileReference;
+			lastKnownFileType = "sourcecode.swift";
+			path = "AlertPresenter.swift";
+			sourceTree = "<group>";
+		};
+	};
+	rootObject = E9323A99D7600D440DBFF05A;
+}
